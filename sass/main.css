@@ -1,0 +1,91 @@
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  html.js .loader .loader_inner {
+    background-size: cover;
+    background: #fff url("../img/preloader.gif") no-repeat center center;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.container {
+  padding: 0;
+  width: 100%; }
+
+.row {
+  margin: 0; }
+
+section {
+  /* height: 100vh */
+  padding: 15px;
+  text-align: center; }
+
+.sect-1 .visit-box {
+  text-transform: uppercase; }
+.sect-1 .contact-box {
+  text-align: left; }
+  .sect-1 .contact-box .contact-box__link {
+    color: #000;
+    text-decoration: underline; }
+  .sect-1 .contact-box .col-centered {
+    text-align: center; }
+
+.sect-2 .napravleniya {
+  display: inline-block; }
+
+.sect-3 table {
+  margin: 0 auto; }
+  .sect-3 table tr {
+    border: 1px dashed; }
+    .sect-3 table tr td {
+      border: 1px dashed; }
+
+.sect-5 {
+  background-color: #414643;
+  color: white; }
+
+.sect-7 {
+  background-color: #414643;
+  color: white;
+  padding-bottom: 0; }
+  .sect-7 .card {
+    margin: 0;
+    margin-left: -15px;
+    margin-right: -15px; }
+  .sect-7 .copy {
+    text-align: left;
+    margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
