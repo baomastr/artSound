@@ -1,5 +1,18 @@
+/* font-family: "HaginCapsMedium"; */
 @font-face {
-  font-family: "RobotoRegular";
+  font-family: "HaginCapsMedium";
+  src: url("../fonts/HaginCapsMedium/HaginCapsMedium.eot");
+  src: url("../fonts/HaginCapsMedium/HaginCapsMedium.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/HaginCapsMedium/HaginCapsMedium.woff") format("woff"),
+  url("../fonts/HaginCapsMedium/HaginCapsMedium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+}
+
+/* font-family: "Myriad Pro"; */
+@font-face {
+  font-family: "Myriad Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/MyriadPro/Myriad-Pro-Light-SemiExtended_31641.ttf") format("truetype");
+}
