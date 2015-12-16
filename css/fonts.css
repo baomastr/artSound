@@ -16,3 +16,7 @@
   font-weight: normal;
   src: url("../fonts/MyriadPro/Myriad-Pro-Light-SemiExtended_31641.ttf") format("truetype");
 }
+
+.tel {
+  font-family: "HaginCapsMedium", sans-serif;
+}

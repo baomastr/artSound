@@ -16,3 +16,11 @@
 		});
 	};
 })(jQuery);
+
+$(function() {
+	$(".napravleniya").animated("zoomInUp");
+});
+
+
+
+
