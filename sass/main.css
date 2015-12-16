@@ -20,7 +20,7 @@ html.js .loader {
     position: absolute; }
 
 body {
-  font-family: "RobotoRegular", sans-serif;
+  font-family: "Myriad Pro", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -40,9 +40,10 @@ body textarea:required:valid {
 .hidden {
   display: none; }
 
-.container {
+.page {
   padding: 0;
-  width: 100%; }
+  max-width: 990px;
+  margin: 0 auto; }
 
 .row {
   margin: 0; }
@@ -52,38 +53,79 @@ section {
   padding: 15px;
   text-align: center; }
 
-.sect-1 .visit-box {
-  text-transform: uppercase; }
-.sect-1 .contact-box {
-  text-align: left; }
-  .sect-1 .contact-box .contact-box__link {
-    color: #000;
-    text-decoration: underline; }
-  .sect-1 .contact-box .col-centered {
-    text-align: center; }
+.sect-1 {
+  background: url(../img/bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative; }
+  .sect-1 .notes {
+    position: absolute;
+    left: 83%;
+    top: -80%;
+    z-index: 0;
+    width: 30%; }
+  .sect-1 .text-xs {
+    margin: 0 auto; }
+  .sect-1 .menu button {
+    background: url(../img/menu.png);
+    width: 32px;
+    height: 33px;
+    padding: 0;
+    border: 0 !important; }
+  .sect-1 .visit-box {
+    text-transform: uppercase; }
+  .sect-1 .logo-box {
+    position: relative;
+    z-index: 1; }
+  .sect-1 .contact-box {
+    text-align: left; }
+    .sect-1 .contact-box .contact-box__link {
+      color: #000;
+      text-decoration: underline; }
+    .sect-1 .contact-box .col-centered {
+      text-align: center; }
 
 .sect-2 .napravleniya {
   display: inline-block; }
 
-.sect-3 table {
-  margin: 0 auto; }
-  .sect-3 table tr {
-    border: 1px dashed; }
-    .sect-3 table tr td {
+.sect-3 {
+  background: url(../img/bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .sect-3 table {
+    margin: 0 auto; }
+    .sect-3 table tr {
       border: 1px dashed; }
+      .sect-3 table tr td {
+        border: 1px dashed; }
+
+.sect-4 img {
+  display: inline-block; }
 
 .sect-5 {
   background-color: #414643;
   color: white; }
+  .sect-5 .row .sert-head-box {
+    margin-top: -40px; }
+    .sect-5 .row .sert-head-box .sert-head-text {
+      background: url(../img/sert-bg.png);
+      display: inline-block;
+      width: 399px;
+      height: 52px;
+      padding-top: 17px; }
+  .sect-5 img {
+    display: inline-block; }
 
 .sect-7 {
   background-color: #414643;
   color: white;
   padding-bottom: 0; }
   .sect-7 .card {
-    margin: 0;
-    margin-left: -15px;
-    margin-right: -15px; }
+    margin: 0 -15px; }
   .sect-7 .copy {
     text-align: left;
     margin: 0; }
