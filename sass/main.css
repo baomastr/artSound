@@ -79,6 +79,8 @@ section {
   .sect-1 .logo-box {
     position: relative;
     z-index: 1; }
+    .sect-1 .logo-box img {
+      display: inline-block; }
   .sect-1 .contact-box {
     text-align: left; }
     .sect-1 .contact-box .contact-box__link {
@@ -117,6 +119,14 @@ section {
       width: 399px;
       height: 52px;
       padding-top: 17px; }
+  .sect-5 .row .sert-head-box-xs {
+    margin-top: -37px; }
+    .sect-5 .row .sert-head-box-xs .sert-head-text-xs {
+      background: url(../img/sert-bg-xs.png);
+      display: inline-block;
+      width: 278px;
+      height: 47px;
+      padding-top: 14px; }
   .sect-5 img {
     display: inline-block; }
 
