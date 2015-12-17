@@ -29,14 +29,6 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden; }
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid {
-  color: red; }
-
-body input:required:valid,
-body textarea:required:valid {
-  color: green; }
-
 .hidden {
   display: none; }
 
@@ -66,22 +58,50 @@ section {
     top: -80%;
     z-index: 0;
     width: 30%; }
-  .sect-1 .call-me {
-    width: 200px;
-    background-color: #d6152e;
-    color: white;
-    border: 0;
-    padding-top: 3px; }
+  .sect-1 .visit-box {
+    text-transform: uppercase;
+    text-align: left;
+    height: 130px; }
+    .sect-1 .visit-box input {
+      background-color: transparent;
+      color: black;
+      border: 0;
+      border-bottom: 1px solid black;
+      margin-bottom: 20px; }
+    .sect-1 .visit-box .call-me {
+      width: 200px;
+      background-color: #d6152e;
+      color: white;
+      border: 0;
+      padding-top: 3px; }
   .sect-1 .text-xs {
     margin: 0 auto; }
   .sect-1 .menu button {
-    background: url(../img/menu.png);
     width: 32px;
     height: 33px;
     padding: 0;
-    border: 0 !important; }
-  .sect-1 .visit-box {
-    text-transform: uppercase; }
+    background: transparent url(../img/menu.png);
+    border: 0 !important;
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    z-index: 5; }
+  .sect-1 .menu ul {
+    position: absolute;
+    width: 230px;
+    z-index: 2;
+    top: 35%; }
+    .sect-1 .menu ul li {
+      list-style-type: none;
+      text-align: center;
+      margin: 0 auto;
+      background-color: #414643;
+      margin-bottom: 1px; }
+      .sect-1 .menu ul li a {
+        display: inline-block;
+        width: 100%;
+        color: white;
+        text-decoration: none; }
   .sect-1 .logo-box {
     position: relative;
     z-index: 1; }
@@ -102,11 +122,23 @@ section {
   background-size: 1px 760px; }
   .sect-2 .napravleniya {
     display: inline-block; }
+    .sect-2 .napravleniya input {
+      background-color: transparent;
+      color: black;
+      border: 0;
+      border-bottom: 1px solid black;
+      margin-bottom: 20px; }
     .sect-2 .napravleniya button {
       background-color: white;
       width: 200px;
       border: 1px solid #6d7373;
       color: #6d7373; }
+      .sect-2 .napravleniya button:hover {
+        background-color: #6c6c6c;
+        color: white; }
+      .sect-2 .napravleniya button:active {
+        background-color: #6c6c6c;
+        color: white; }
 
 .sect-3 {
   background: url(../img/bg.jpg) no-repeat center center;

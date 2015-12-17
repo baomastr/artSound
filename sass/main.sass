@@ -31,12 +31,6 @@ body
 	-webkit-font-smoothing: antialiased
 	overflow-x: hidden
 
-body input:focus:required:invalid,
-body textarea:focus:required:invalid
-	color: red
-body input:required:valid,
-body textarea:required:valid
-	color: green
 
 .hidden
 	display: none
@@ -67,25 +61,55 @@ section
 		top: -80%
 		z-index: 0
 		width: 30%
-	.call-me
-		width: 200px
-		background-color: #d6152e
-		color: white
-		border: 0
-		padding-top: 3px
+	.visit-box
+		text-transform: uppercase
+		text-align: left
+		height: 130px
+		input
+			background-color: transparent
+			color: black
+			border: 0
+			border-bottom: 1px solid black
+			margin-bottom: 20px
+
+		.call-me
+			width: 200px
+			background-color: #d6152e
+			color: white
+			border: 0
+			padding-top: 3px
 
 	.text-xs
 		margin: 0 auto
+
 	.menu
 		button
-			background: url(../img/menu.png)
 			width: 32px
 			height: 33px
 			padding: 0
+			background: transparent url(../img/menu.png)
 			border: 0!important
-
-	.visit-box
-		text-transform: uppercase
+			position: fixed
+			top: 5px
+			right: 5px
+			z-index: 5
+		ul
+			position: absolute
+			width: 230px
+			z-index: 2
+			top: 35%
+			li
+				list-style-type: none
+				text-align: center
+				margin: 0 auto
+				background-color: #414643
+				margin-bottom: 1px
+				a
+					display: inline-block
+					width: 100%
+					color: white
+					&:hover
+					text-decoration: none
 
 	.logo-box
 		position: relative
@@ -113,12 +137,25 @@ section
 
 	.napravleniya
 		display: inline-block
+
+		input
+			background-color: transparent
+			color: black
+			border: 0
+			border-bottom: 1px solid black
+			margin-bottom: 20px
+
 		button
 			background-color: white
 			width: 200px
 			border: 1px solid #6d7373
 			color: #6d7373
-
+			&:hover
+				background-color: #6c6c6c
+				color: white
+			&:active
+				background-color: #6c6c6c
+				color: white
 
 .sect-3
 	background: url(../img/bg.jpg) no-repeat center center
@@ -166,7 +203,7 @@ section
 	input
 		width: 200px
 		margin-top: 10px
-		
+
 	button
 		margin-right: 3px
 		margin-top: 10px
