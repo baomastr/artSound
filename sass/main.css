@@ -126,7 +126,9 @@ section {
 .sect-2 {
   /* background: url(../img/dotted-center.png) center 30% no-repeat */
   -webkit-background-size: 1px 500px;
-  background-size: 1px 760px; }
+  background-size: 1px 760px;
+  padding-left: 70px;
+  padding-right: 70px; }
   .sect-2 .napravleniya {
     display: inline-block; }
     .sect-2 .napravleniya input {
@@ -153,6 +155,8 @@ section {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+  .sect-3 .red {
+    color: red; }
   .sect-3 table {
     margin: 0 auto; }
     .sect-3 table tr {
@@ -185,6 +189,8 @@ section {
   .sect-5 img {
     display: inline-block; }
 
+.sect-6 form {
+  width: auto; }
 .sect-6 input {
   width: 200px;
   margin-top: 10px; }
