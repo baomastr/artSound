@@ -98,6 +98,7 @@ section {
       background-color: #414643;
       margin-bottom: 1px; }
       .sect-1 .menu ul li a {
+        line-height: 30px;
         display: inline-block;
         width: 100%;
         color: white;
