@@ -164,6 +164,8 @@ section {
       .sect-3 table tr td {
         border: 1px dashed; }
 
+.sect-4 .insta-img-box {
+  margin-bottom: 20px; }
 .sect-4 img {
   display: inline-block; }
 
