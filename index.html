@@ -41,12 +41,12 @@
 				<div class="visit-box col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 col-sm-5 col-sm-pull-7 col-sm-offset-7 hidden-xs">
 					<p class="visit-box__text">первое занятие бесплатно</p>
 
-					<form class="hidden" action="">
+					<form class="form-visit hidden" action="">
 						<input type="text" required placeholder="Имя">
 						<input type="tel" required placeholder="+7">
 					</form>
 
-					<button type="submit" class="visit-box__btn call-me">ПОСЕТИТЬ</button>
+					<button type="submit" id="visit" class="visit-box__btn call-me">ПОСЕТИТЬ</button>
 				</div>
 			</div>
 			<div class="menu visible-xs">
@@ -106,11 +106,11 @@
 						музыкальных стилях: блюз, кантри, фолк и т д.</p>
 					<p class="napravleniya__content">Правильная постановка и координация рук, свободное владение аккордами, развитие слуха и подбор музыки, большой репертуар из ваших любимых песен и мелодий, педагог поделится с вами секретами импровизации на гитаре
 					</p>
-					<form class="hidden" action="">
+					<form class="form-zapis-guitar hidden" action="">
 						<input type="text" required placeholder="Имя">
 						<input type="tel" required placeholder="+7">
 					</form>
-					<button class="napravleniya__zapis">Записаться</button>
+					<button class="napravleniya__zapis" id="zapis-guitar" >Записаться</button>
 				</div>
 
 				<div class="napravleniya col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-12">
@@ -122,11 +122,11 @@
 					<p class="napravleniya__content">
 						Профессиональная постановка голоса, эффективная техника дыхания, работа с микрофоном. Вы сможете петь в разных музыкальных жанрах и, конечно, найдете ваш собственный стиль и забудете о стеснении и страхе петь перед слушателями
 					</p>
-					<form class="hidden" action="">
+					<form class="form-zapis-vokal hidden" action="">
 						<input type="text" required placeholder="Имя">
 						<input type="tel" required placeholder="+7">
 					</form>
-					<button class="napravleniya__zapis">Записаться</button>
+					<button id="zapis-vokal" class="napravleniya__zapis">Записаться</button>
 				</div>
 
 			</div>
@@ -141,7 +141,11 @@
 					<p class="napravleniya__content">
 						Вы научитесь свободно читать с листа музыкальные произведения, играть любимые композиции, доведете до автоматизма координацию движений рук и ног и определенно разовьете память
 					</p>
-					<button class="napravleniya__zapis">Записаться</button>
+					<form class="form-zapis-fano hidden" action="">
+						<input type="text" required placeholder="Имя">
+						<input type="tel" required placeholder="+7">
+					</form>
+					<button id="zapis-fano" class="napravleniya__zapis">Записаться</button>
 				</div>
 
 				<div class="napravleniya col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2 col-xs-12">
@@ -153,7 +157,11 @@
 					<p class="napravleniya__content">
 						Мы поможем вам развить слух и чувство ритма, научиться интонировать голосом, понимать форму музыки, музыкальных произведений и еще вы научитесь записывать музыку нотами
 					</p>
-					<button class="napravleniya__zapis">Записаться</button>
+					<form class="form-zapis-solf hidden" action="">
+						<input type="text" required placeholder="Имя">
+						<input type="tel" required placeholder="+7">
+					</form>
+					<button id="zapis-solf" class="napravleniya__zapis">Записаться</button>
 				</div>
 
 			</div>
@@ -196,7 +204,12 @@
 						Все, что нужно знать о музыке и музыкантах всех времен. Это базовый курс, пройдя который вы получите разносторонние знания. На занятиях вы прослушаете музыкальные хиты «от Баха до наших дней» и узнаете историю их создания. Вы узнаете какая музыка и чем полезна для здоровья. Почему любят оперу. Зачем нужен дирижер.
 						Вы разберётесь с музыкальными стилями и жанрами и разложите их для себя «по полочкам». Этот курс интересен для всех и гарантированно полезен тем, кто начинает заниматься музыкой.
 					</p>
-					<button class="napravleniya__zapis">Записаться</button>
+					<form class="form-zapis-hist hidden" action="">
+						<input type="text" required placeholder="Имя">
+						<input type="tel" required placeholder="+7">
+					</form>
+					<button id="zapis-hist" class="napravleniya__zapis">Записаться</button>
+				</div>
 				</div>
 
 			</div>
@@ -439,6 +452,6 @@
 	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
 	
 	<script src="js/common.js"></script>
-	
+
 </body>
 </html>

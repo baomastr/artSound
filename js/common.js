@@ -41,13 +41,46 @@ $(document).ready(function() {
 
 	};
 
-	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
-	
-});
+	$("img, a").on("dragstart", function(event) {
+		event.preventDefault();
 
-$(window).load(function() {
+	});
 
 	$(".loader_inner").fadeOut();
+
 	$(".loader").delay(400).fadeOut("slow");
 
+
+	// При нажатии на кнопки "записаться"
+	$("#visit").click(function() {
+		$('.form-visit').removeClass("hidden");
+
+	});
+
+	$("#zapis-guitar").click(function() {
+		$('.form-zapis-guitar').removeClass("hidden");
+
+	});
+
+	$("#zapis-vokal").click(function() {
+		$('.form-zapis-vokal').removeClass("hidden");
+
+	});
+
+	$("#zapis-fano").click(function() {
+		$('.form-zapis-fano').removeClass("hidden");
+
+	});
+
+	$("#zapis-solf").click(function() {
+		$('.form-zapis-solf').removeClass("hidden");
+
+	});
+	
+	$("#zapis-hist").click(function() {
+		$('.form-zapis-hist').removeClass("hidden");
+
+	});
+
 });
+
