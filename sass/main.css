@@ -188,6 +188,9 @@ section {
       width: 278px;
       height: 47px;
       padding-top: 14px; }
+  .sect-5 .row .sert-text {
+    padding-left: 20%;
+    padding-right: 20%; }
   .sect-5 img {
     display: inline-block; }
 
