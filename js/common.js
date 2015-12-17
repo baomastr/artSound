@@ -76,9 +76,20 @@ $(document).ready(function() {
 		$('.form-zapis-solf').removeClass("hidden");
 
 	});
-	
+
 	$("#zapis-hist").click(function() {
 		$('.form-zapis-hist').removeClass("hidden");
+
+	});
+
+
+	//меню для мобильных устройств
+
+	$("#menu-icon").on("click", function(){
+
+		$("#nav").slideToggle();
+
+		$(this).toggleClass("active");
 
 	});
 

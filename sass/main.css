@@ -98,7 +98,8 @@ section {
       text-align: center;
       margin: 0 auto;
       background-color: #414643;
-      margin-bottom: 1px; }
+      margin-bottom: 1px;
+      margin-top: 1px; }
       .sect-1 .menu ul li a {
         line-height: 35px;
         display: inline-block;
