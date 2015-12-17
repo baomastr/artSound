@@ -87,10 +87,12 @@ section {
     right: 5px;
     z-index: 5; }
   .sect-1 .menu ul {
-    position: absolute;
-    width: 230px;
+    position: fixed;
+    width: 75%;
+    left: 27%;
+    margin-left: -18%;
     z-index: 2;
-    top: 35%; }
+    top: 23%; }
     .sect-1 .menu ul li {
       list-style-type: none;
       text-align: center;
@@ -98,11 +100,12 @@ section {
       background-color: #414643;
       margin-bottom: 1px; }
       .sect-1 .menu ul li a {
-        line-height: 30px;
+        line-height: 35px;
         display: inline-block;
         width: 100%;
-        color: white;
-        text-decoration: none; }
+        color: white; }
+        .sect-1 .menu ul li a:hover {
+          text-decoration: none; }
   .sect-1 .logo-box {
     position: relative;
     z-index: 1; }
