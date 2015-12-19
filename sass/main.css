@@ -163,8 +163,19 @@ section {
   padding-right: 0; }
   .sect-3 .red {
     color: red; }
-  .sect-3 .table-lg tr {
-    border: 1px dashed; }
+  .sect-3 .table-lg {
+    border-bottom: 1px dashed;
+    border-top: 1px dashed; }
+    .sect-3 .table-lg tr td:not(:last-child) {
+      border-right: 1px dashed; }
+    .sect-3 .table-lg tr td:last-child {
+      width: 20px; }
+    .sect-3 .table-lg .table-lg-head td:not(:first-child) {
+      border: 1px dashed;
+      border-top: none; }
+      .sect-3 .table-lg .table-lg-head td:not(:first-child):last-child {
+        border-right: none;
+        border-bottom: none; }
   .sect-3 .table-xs-head {
     border-bottom: 2px dashed;
     border-top: 2px dashed; }

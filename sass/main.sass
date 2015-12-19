@@ -184,10 +184,22 @@ section
 		color: red
 
 	.table-lg
+		border-bottom: 1px dashed
+		border-top: 1px dashed
 		tr
-			border: 1px dashed
-			td
-				
+			td:not(:last-child)
+				border-right: 1px dashed
+
+			td:last-child
+				width: 20px
+
+		.table-lg-head
+			td:not(:first-child)
+				border: 1px dashed
+				border-top: none
+				&:last-child
+					border-right: none
+					border-bottom: none
 
 	.table-xs-head
 		border-bottom: 2px dashed
