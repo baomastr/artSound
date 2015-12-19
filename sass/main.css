@@ -158,15 +158,31 @@ section {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  padding-left: 0;
+  padding-right: 0; }
   .sect-3 .red {
     color: red; }
-  .sect-3 table {
-    margin: 0 auto; }
-    .sect-3 table tr {
-      border: 1px dashed; }
-      .sect-3 table tr td {
-        border: 1px dashed; }
+  .sect-3 .table-lg tr {
+    border: 1px dashed; }
+  .sect-3 .table-xs-head {
+    border-bottom: 2px dashed;
+    border-top: 2px dashed; }
+  .sect-3 .table-xs .bottom {
+    border-bottom: 2px dashed; }
+  .sect-3 .table-xs table {
+    margin: 0 auto;
+    width: 100%; }
+    .sect-3 .table-xs table tr {
+      width: 100%; }
+      .sect-3 .table-xs table tr td {
+        width: 50%;
+        text-align: left;
+        padding: 20px; }
+  .sect-3 .table-xs .right-dashed {
+    text-align: right;
+    padding: 20px;
+    border-right: 2px dashed; }
 
 .sect-4 .insta-img-box {
   margin-bottom: 20px; }

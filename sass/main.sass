@@ -177,16 +177,40 @@ section
 	-moz-background-size: cover
 	-o-background-size: cover
 	background-size: cover
+	padding-left: 0
+	padding-right: 0
 
 	.red
 		color: red
 
-	table
-		margin: 0 auto
+	.table-lg
 		tr
 			border: 1px dashed
 			td
-				border: 1px dashed
+				
+
+	.table-xs-head
+		border-bottom: 2px dashed
+		border-top: 2px dashed
+
+	.table-xs
+		.bottom
+			border-bottom: 2px dashed
+		table
+			margin: 0 auto
+			width: 100%
+			tr
+				width: 100%
+				td
+					width: 50%
+					text-align: left
+					padding: 20px
+
+		.right-dashed
+			text-align: right
+			padding: 20px
+			border-right: 2px dashed
+
 .sect-4
 	.insta-img-box
 		margin-bottom: 20px
