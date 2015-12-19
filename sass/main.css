@@ -45,6 +45,10 @@ section {
   padding: 15px;
   text-align: center; }
 
+.fixed-content {
+  max-width: 990px;
+  margin: 0 auto; }
+
 .sect-1 {
   background: url(../img/bg.jpg) no-repeat center center;
   -webkit-background-size: cover;
