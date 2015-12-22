@@ -1,10 +1,10 @@
 /* font-family: "HaginCapsMedium"; */
 @font-face {
   font-family: "HaginCapsMedium";
-  src: url("../fonts/HaginCapsMedium/HaginCapsMedium.eot");
-  src: url("../fonts/HaginCapsMedium/HaginCapsMedium.eot?#iefix")format("embedded-opentype"),
-  url("../fonts/HaginCapsMedium/HaginCapsMedium.woff") format("woff"),
-  url("../fonts/HaginCapsMedium/HaginCapsMedium.ttf") format("truetype");
+  src: url("../fonts/HaginCaps/HaginCapsMedium.eot");
+  src: url("../fonts/HaginCaps/HaginCapsMedium.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/HaginCaps/HaginCapsMedium.woff") format("woff"),
+  url("../fonts/HaginCaps/HaginCapsMedium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -19,4 +19,13 @@
 
 .tel {
   font-family: "HaginCapsMedium", sans-serif;
+  font-size: 16pt;
+}
+
+.plus {
+  font-size: 30px;
+}
+
+.copy {
+  font-size: 9px;
 }

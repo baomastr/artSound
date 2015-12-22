@@ -75,7 +75,7 @@ section {
       border-bottom: 1px solid black;
       margin-bottom: 20px; }
     .sect-1 .visit-box .call-me {
-      width: 200px;
+      width: 192px;
       background-color: #d6152e;
       color: white;
       border: 0;
@@ -121,6 +121,8 @@ section {
       margin: 0 auto; }
   .sect-1 .contact-box {
     text-align: left; }
+    .sect-1 .contact-box p {
+      margin: 0; }
     .sect-1 .contact-box .contact-box__link {
       color: #000;
       text-decoration: underline; }
@@ -134,7 +136,8 @@ section {
   padding-left: 70px;
   padding-right: 70px; }
   .sect-2 .napravleniya {
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 50px; }
     .sect-2 .napravleniya input {
       background-color: transparent;
       color: black;
@@ -170,6 +173,8 @@ section {
       border-right: 1px dashed; }
     .sect-3 .table-lg tr td:last-child {
       width: 20px; }
+    .sect-3 .table-lg tr td:first-child {
+      width: 115px; }
     .sect-3 .table-lg .table-lg-head td:not(:first-child) {
       border: 1px dashed;
       border-top: none; }
@@ -195,10 +200,16 @@ section {
     padding: 20px;
     border-right: 2px dashed; }
 
-.sect-4 .insta-img-box {
-  margin-bottom: 20px; }
-.sect-4 img {
-  display: inline-block; }
+.sect-4 {
+  padding-bottom: 50px; }
+  .sect-4 .insta-img-box {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px; }
+  .sect-4 img {
+    display: inline-block; }
+  .sect-4 .insta-text {
+    margin-top: 50px; }
 
 .sect-5 {
   background-color: #414643;
@@ -225,6 +236,11 @@ section {
   .sect-5 img {
     display: inline-block; }
 
+.sect-6 .inline {
+  display: inline-block;
+  vertical-align: middle; }
+.sect-6 .hc-3 {
+  margin-right: 35px; }
 .sect-6 form {
   width: auto; }
 .sect-6 input {

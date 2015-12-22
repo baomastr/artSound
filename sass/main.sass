@@ -31,7 +31,6 @@ body
 	-webkit-font-smoothing: antialiased
 	overflow-x: hidden
 
-
 .hidden
 	display: none
 
@@ -73,6 +72,7 @@ section
 		text-transform: uppercase
 		text-align: left
 		height: 130px
+
 		input
 			background-color: transparent
 			color: black
@@ -81,7 +81,7 @@ section
 			margin-bottom: 20px
 
 		.call-me
-			width: 200px
+			width: 192px
 			background-color: #d6152e
 			color: white
 			border: 0
@@ -133,7 +133,8 @@ section
 	.contact-box
 		text-align: left
 
-		.contact-box__phone
+		p
+			margin: 0
 
 		.contact-box__link
 			color: #000
@@ -151,6 +152,7 @@ section
 
 	.napravleniya
 		display: inline-block
+		margin-bottom: 50px
 
 		input
 			background-color: transparent
@@ -193,6 +195,9 @@ section
 			td:last-child
 				width: 20px
 
+			td:first-child
+				width: 115px
+
 		.table-lg-head
 			td:not(:first-child)
 				border: 1px dashed
@@ -224,11 +229,17 @@ section
 			border-right: 2px dashed
 
 .sect-4
+	padding-bottom: 50px
 	.insta-img-box
-		margin-bottom: 20px
+		margin-bottom: 10px
+		padding-right: 5px
+		padding-left: 5px
 
 	img
 		display: inline-block
+
+	.insta-text
+		margin-top: 50px
 
 .sect-5
 	background-color: #414643
@@ -258,6 +269,13 @@ section
 
 
 .sect-6
+	.inline
+		display: inline-block
+		vertical-align: middle
+
+	.hc-3
+		margin-right: 35px
+
 	form
 		width: auto
 
