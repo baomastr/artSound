@@ -135,6 +135,10 @@ section {
   background-size: 1px 760px;
   padding-left: 70px;
   padding-right: 70px; }
+  .sect-2 .bear {
+    margin-bottom: 20px; }
+  .sect-2 .first-four-napravleniya {
+    background: url(../img/dotted-center.png) no-repeat center center; }
   .sect-2 .napravleniya {
     display: inline-block;
     margin-bottom: 50px; }
