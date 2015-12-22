@@ -2,9 +2,7 @@
 @font-face {
   font-family: "HaginCapsMedium";
   src: url("../fonts/HaginCaps/HaginCapsMedium.eot");
-  src: url("../fonts/HaginCaps/HaginCapsMedium.eot?#iefix")format("embedded-opentype"),
-  url("../fonts/HaginCaps/HaginCapsMedium.woff") format("woff"),
-  url("../fonts/HaginCaps/HaginCapsMedium.ttf") format("truetype");
+  src: url("../fonts/HaginCaps/HaginCapsMedium.eot?#iefix")format("embedded-opentype");
   font-style: normal;
   font-weight: normal;
 }

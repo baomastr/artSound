@@ -168,11 +168,14 @@ section {
   background-size: cover;
   padding-left: 0;
   padding-right: 0; }
+  .sect-3 h3 {
+    margin-bottom: 0; }
   .sect-3 .red {
     color: red; }
   .sect-3 .table-lg {
     border-bottom: 1px dashed;
-    border-top: 1px dashed; }
+    border-top: 1px dashed;
+    margin-top: 20px; }
     .sect-3 .table-lg tr td:not(:last-child) {
       border-right: 1px dashed; }
     .sect-3 .table-lg tr td:last-child {
