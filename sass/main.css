@@ -79,7 +79,9 @@ section {
       background-color: #d6152e;
       color: white;
       border: 0;
-      padding-top: 3px; }
+      height: 20px;
+      padding: 1px 0 0;
+      letter-spacing: 1px; }
   .sect-1 .text-xs {
     margin: 0 auto; }
   .sect-1 .menu button {
@@ -142,6 +144,9 @@ section {
   .sect-2 .napravleniya {
     display: inline-block;
     margin-bottom: 50px; }
+    .sect-2 .napravleniya h3 {
+      font-weight: 300;
+      letter-spacing: 3px; }
     .sect-2 .napravleniya input {
       background-color: transparent;
       color: black;
@@ -184,7 +189,9 @@ section {
       width: 115px; }
     .sect-3 .table-lg .table-lg-head td:not(:first-child) {
       border: 1px dashed;
-      border-top: none; }
+      border-top: none;
+      line-height: 15px;
+      padding: 5px; }
       .sect-3 .table-lg .table-lg-head td:not(:first-child):last-child {
         border-right: none;
         border-bottom: none; }
@@ -216,7 +223,9 @@ section {
   .sect-4 img {
     display: inline-block; }
   .sect-4 .insta-text {
-    margin-top: 50px; }
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px; }
 
 .sect-5 {
   background-color: #414643;
@@ -243,6 +252,8 @@ section {
   .sect-5 img {
     display: inline-block; }
 
+.sect-6 p {
+  letter-spacing: 4px; }
 .sect-6 .inline {
   display: inline-block;
   vertical-align: middle; }
@@ -252,10 +263,12 @@ section {
   width: auto; }
 .sect-6 input {
   width: 200px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-left: 10px; }
 .sect-6 button {
   margin-right: 3px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  padding-bottom: 0; }
 .sect-6 .call-me {
   width: 200px;
   background-color: #d6152e;
@@ -267,6 +280,12 @@ section {
   background-color: #414643;
   color: white;
   padding-bottom: 0; }
+  .sect-7 .contacts-7 {
+    padding-bottom: 40px;
+    padding-top: 10px; }
+  .sect-7 p {
+    margin-top: 5px;
+    margin-bottom: 5px; }
   .sect-7 .card {
     margin: 0 -15px; }
   .sect-7 .copy {
