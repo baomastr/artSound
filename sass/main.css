@@ -157,7 +157,8 @@ section {
       background-color: white;
       width: 200px;
       border: 1px solid #6d7373;
-      color: #6d7373; }
+      color: #6d7373;
+      padding-bottom: 0; }
       .sect-2 .napravleniya button:hover {
         background-color: #6c6c6c;
         color: white; }
