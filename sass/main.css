@@ -50,7 +50,7 @@ section {
   margin: 0 auto; }
 
 .sect-1 {
-  background: url(../img/bg.jpg) no-repeat center center;
+  background: url(../img/background-optimised.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -167,7 +167,7 @@ section {
         color: white; }
 
 .sect-3 {
-  background: url(../img/bg.jpg) no-repeat center center;
+  background: url(../img/background-optimised.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
