@@ -35,7 +35,8 @@ body {
 .page {
   padding: 0;
   /* max-width: 990px */
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 .row {
   margin: 0; }
@@ -56,13 +57,12 @@ section {
   background-size: cover;
   position: relative;
   padding-top: 0; }
-  .sect-1 .note-img {
-    background: url(../img/not.png) no-repeat 35px -456px;
-    background-size: 150%;
+  .sect-1 .notes {
     position: absolute;
-    height: 690px;
-    width: 225px;
-    right: 0; }
+    width: 30%;
+    overflow: hidden;
+    margin-left: 80%;
+    margin-top: -40%; }
   .sect-1 .visit-box {
     text-transform: uppercase;
     text-align: left;
