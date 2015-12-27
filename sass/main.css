@@ -164,8 +164,6 @@ section {
 
 .sect-3 {
   background: url(../img/background-optimised.jpg) no-repeat center center;
-  width: 11664px;
-  height: 2592px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
