@@ -59,10 +59,9 @@ section {
   padding-top: 0; }
   .sect-1 .notes {
     position: absolute;
-    width: 30%;
-    overflow: hidden;
+    width: 320px;
     margin-left: 80%;
-    margin-top: -40%; }
+    margin-top: -300px; }
   .sect-1 .visit-box {
     text-transform: uppercase;
     text-align: left;
