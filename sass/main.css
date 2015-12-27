@@ -56,7 +56,8 @@ section {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-  padding-top: 0; }
+  padding-top: 0;
+  padding-bottom: 50px; }
   .sect-1 .notes {
     position: absolute;
     width: 320px;
@@ -132,7 +133,8 @@ section {
   -webkit-background-size: 1px 500px;
   background-size: 1px 760px;
   padding-left: 70px;
-  padding-right: 70px; }
+  padding-right: 70px;
+  padding-top: 50px; }
   .sect-2 .bear {
     margin-bottom: 20px; }
   .sect-2 .first-four-napravleniya {
@@ -213,7 +215,8 @@ section {
     border-right: 2px dashed; }
 
 .sect-4 {
-  padding-bottom: 50px; }
+  padding-bottom: 60px;
+  padding-top: 50px; }
   .sect-4 .insta-img-box {
     margin-bottom: 10px;
     padding-right: 0;
